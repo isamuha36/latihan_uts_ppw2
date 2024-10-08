@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('partial.layout')
 
 @section('content')
     <div class="container mt-5 mb-5">
@@ -61,7 +61,7 @@
         border: 1px solid #ccc;
         border-radius: 4px;
         overflow: hidden;
-    }
+    } 
 
     .search-bar input {
         padding: 10px;
